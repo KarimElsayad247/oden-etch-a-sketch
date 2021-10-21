@@ -5,7 +5,23 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#reset-button {
+    margin: 30px;
+    padding: 20px;
+}
+
+#slider-value {
+    font-size: 24px;
 }
 
 .container {
